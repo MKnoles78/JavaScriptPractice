@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hello, HTML!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body onload="countToTen()">
+        <h1>Let's count to 10 with JavaScript!</h1>
+        <p id="theCount"></p>
+        
+        <script src="" async defer>
+            function countToTen() {
+                var count = 0;
+                while (count < 10) {
+                    count ++;
+                    document.getElementById("theCount").innerHTML += count + "<br>";
+                }
+            }
+        </script>
+    </body>
+</html>
