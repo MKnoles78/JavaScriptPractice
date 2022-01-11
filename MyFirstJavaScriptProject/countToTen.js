@@ -10,4 +10,3 @@ var firstNumber = 3;
 var secondNumber = 7;
 var total = Number(firstNumber) + Number(secondNumber);
 alert (total);
-alert(total * 2)
