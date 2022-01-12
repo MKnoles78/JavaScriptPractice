@@ -6,7 +6,7 @@ function countToTen() {
     }
 }
 
-var firstNumber = 3;
-var secondNumber = 7;
+var firstNumber = prompt("Enter the first Number: ");
+var secondNumber = prompt("Enter the second number: ");
 var total = Number(firstNumber) + Number(secondNumber);
 alert (total);
